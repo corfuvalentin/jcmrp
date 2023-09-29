@@ -1,1 +1,8 @@
-on: push
+on: 
+  push:
+    branches:
+    - master
+
+  - name: Echo Stuff
+  run: echo "success"
+    
