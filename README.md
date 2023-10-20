@@ -1,4 +1,7 @@
-# jcm-RPI
-jcm-RPI - Joystick Control for stepper Motor on Raspberry Pi
+# JCM-rpi
+JCM-rpi - **J**oystick **C**ontrol for stepper **M**otor on Raspberry Pi
 
-compile with on your PI: gcc -o jcmrp jcmrp.c -l wiringPi
+Compile it directly on PI:
+``` MakeFile
+gcc -o jcmrp jcmrp.c -l wiringPi
+```
